@@ -60,7 +60,7 @@ an accelerator semifinal ·
 sebesan.corina@gmail.com
 
 Currently looking for a senior frontend or full stack role, remote or in
-Timisoara.## Hi there 👋
+Timisoara.
 
 <!--
 **corinasebesan/corinasebesan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
