@@ -1,9 +1,6 @@
 ## Corina Nicoleta Sebesan
 
-Senior software engineer in Timisoara, Romania. Seven years of commercial
-experience, all of it on long-lived products rather than short client projects:
-five years of C# and .NET on a desktop and web analytics platform, and seven of
-TypeScript across Angular and Preact.
+Senior software engineer in Timisoara, Romania. Seven years of commercial experience, all of it on long-lived products: five years of C# and .NET on a desktop and web analytics platform, and seven of TypeScript across Angular and Preact.
 
 I am most useful in the layer beneath the feature. Shared component libraries,
 design systems, and the contracts that keep a large codebase coherent while six
