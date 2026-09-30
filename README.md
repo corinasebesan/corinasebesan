@@ -6,11 +6,26 @@ I am most useful in the layer beneath the feature. Shared component libraries,
 design systems, and the contracts that keep a large codebase coherent while six
 applications are built on top of it.
 
-Most of what is here is older work. In 2026 I went back through it, which turned
-out to be more interesting than writing something new: the repositories below
-are worth opening partly for what they do and partly for what I found in them.
+The first one below is new. The rest is older work that I went back through in
+2026, which turned out to be more interesting than I expected: those
+repositories are worth opening partly for what they do and partly for what I
+found in them.
 
 ### Worth opening
+
+**[Sendflow](https://github.com/corinasebesan/Sendflow)** ·
+React, TypeScript, Motion
+
+A wallet transfer flow where the point was never the form, it was the states
+around it. The network fee moves while you are deciding, so "Max" is stored as a
+rule rather than a number and recomputes instead of quietly going stale. The fee
+freezes the moment you commit, because the number you agreed to and the number
+that gets sent must not differ. And failing before a transaction is sent is a
+different event from failing after: one costs nothing, the other costs the fee,
+so they get different words and different actions, since encouraging a retry on
+the second is how someone pays twice. The flow itself is one discriminated
+union, so being pending and failed at the same time is unrepresentable.
+[Live demo](https://corinasebesan.github.io/Sendflow/).
 
 **[MedicalOnTime](https://github.com/corinasebesan/MedicalOnTime)** ·
 Spring Boot, MySQL, React
